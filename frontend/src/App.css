@@ -10,19 +10,21 @@ header {
 /* navbar */
 
 header nav {
-    padding: 1rem;
     position: fixed;
+    width: 100%;
+    background: linear-gradient(to right, white 30%, #b5b5b5 70%);
 }
 
 header nav ul {
     display: flex;
     justify-content: space-between;
+    padding: 1rem 1rem;
 }
 
 header nav ul li {
     list-style: none;
     color: #143d59;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
     transition: all ease-in .3s;
@@ -37,13 +39,14 @@ header nav ul li a {
     border: 4px double #143d59;
     border-radius: 10%;
     padding: .5rem;
-    background-color: #f4b41a;
+    box-shadow: .1rem .1rem .2rem black;
+    /* background-color: #f4b41a; */
     transition: all ease-in .3s;
 }
 
 header nav ul li a:hover {
     background: linear-gradient(to right, yellow, red);
-    box-shadow: .1rem .1rem .2rem black;
+    box-shadow: .4rem .1rem .2rem black;
 }
 
 .main-header--container {
