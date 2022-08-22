@@ -45,8 +45,26 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: linear-gradient(to right, yellow, red);
-    box-shadow: .4rem .1rem .2rem black;
+
+    box-shadow: .6rem .1rem .2rem black;
+    background: linear-gradient(to right, transparent 80%, #e2e2e2d2 20%);
+    transform: rotateZ(180deg);
+}
+
+header nav ul li:nth-child(1n+5)>a:hover {
+    background: linear-gradient(to right, transparent 70%, #bebebebd 30%);
+}
+
+header nav ul li:nth-child(1n+6)>a:hover {
+    background: linear-gradient(to right, transparent 40%, #7e7e7ec4 60%);
+}
+
+header nav ul li:nth-child(1n+7)>a:hover {
+    background: linear-gradient(to right, transparent 20%, #6d6d6d7c 80%);
+}
+
+header nav ul li:nth-child(1n+8)>a:hover {
+    background: linear-gradient(to right, transparent 10%, #57575791 90%);
 }
 
 .main-header--container {
