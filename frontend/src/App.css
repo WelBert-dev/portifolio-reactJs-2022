@@ -4,30 +4,36 @@
 header {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to right, white 30%, #b5b5b5 70%);
+    background: linear-gradient(to right, white 15%, #6a6767 85%);
+    border: 8px double black;
 }
 
 /* navbar */
 
 header nav {
     position: fixed;
+    z-index: 2;
     width: 100%;
-    background: linear-gradient(to right, white 30%, #b5b5b5 70%);
+    /* background: linear-gradient(to right, white 15%, #6a6767 85%); */
 }
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1rem 1rem;
 }
 
 header nav ul li {
     list-style: none;
-    color: #143d59;
+    color: #0877c4;
     font-size: .8rem;
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
     transition: all ease-in .3s;
+}
+
+header nav ul li:nth-child(8) {
+    margin-right: 16px;
 }
 
 header nav ul li:hover {
@@ -36,19 +42,28 @@ header nav ul li:hover {
 
 header nav ul li a {
     text-decoration: none;
-    border: 4px double #143d59;
+    list-style: none;
+    border: 4px double black;
     border-radius: 10%;
     padding: .5rem;
     box-shadow: .1rem .1rem .2rem black;
     /* background-color: #f4b41a; */
+    background-color: white;
     transition: all ease-in .3s;
+    text-shadow: .08rem .08rem .08rem black;
+    background: linear-gradient(to right, #eb00ffb3 15%, #21b3faed 70%);
 }
 
 header nav ul li a:hover {
-
     box-shadow: .6rem .1rem .2rem black;
     background: linear-gradient(to right, transparent 80%, #e2e2e2d2 20%);
     transform: rotateZ(180deg);
+}
+
+header nav ul li a:visited {
+    list-style: none;
+    text-decoration: none;
+    color: #0877c4;
 }
 
 header nav ul li:nth-child(1n+5)>a:hover {
@@ -76,23 +91,40 @@ header nav ul li:nth-child(1n+8)>a:hover {
 }
 
 .main-header--left {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.main-header--left > div > h1 {
+    color: #0877c4;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    text-shadow: .18rem .18rem .2rem black;
+}
+
+
 .main-header--right {
-    height: 100%;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
 }
 
 /* main area */
 
-
 section {
     width: 100vw;
     height: 100vh;
-    border: 1px solid black;
+    position: relative;
+    top: -4rem;
+    border: 4px double black;
+}
+
+#main-sobre--container {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to right, white 15%, #fa2121da 70%);
 }
