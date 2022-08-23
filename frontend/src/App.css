@@ -26,9 +26,9 @@ header nav ul {
 header nav ul li {
     list-style: none;
     color: #0877c4;
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: bold;
-    font-family: 'Press Start 2P', cursive;
+    font-family: cursive;
     transition: all ease-in .3s;
 }
 
@@ -50,7 +50,7 @@ header nav ul li a {
     /* background-color: #f4b41a; */
     background-color: white;
     transition: all ease-in .3s;
-    text-shadow: .08rem .08rem .08rem black;
+    text-shadow: 0.15rem .09rem 0.009rem black;
     background: linear-gradient(to right, #eb00ffb3 15%, #21b3faed 70%);
 }
 
@@ -63,7 +63,7 @@ header nav ul li a:hover {
 header nav ul li a:visited {
     list-style: none;
     text-decoration: none;
-    color: #0877c4;
+    color: #ffffff;
 }
 
 header nav ul li:nth-child(1n+5)>a:hover {
@@ -120,11 +120,48 @@ section {
     height: 100vh;
     position: relative;
     top: -4rem;
-    border: 4px double black;
+    border: 8px double black;
 }
 
 #main-sobre--container {
     position: relative;
     width: 100%;
-    background: linear-gradient(to right, white 15%, #fa2121da 70%);
+    background: linear-gradient(to right, white 15%, #bb00ffdb 70%);
 }
+
+/* Sobre area */
+
+.main-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    color: #00e7ff;
+    text-shadow: .15rem .2rem 0.009rem black;
+    margin: 1rem;
+}
+
+#main-sobre--container div p{
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: cursive;
+    border: 4px double purple;
+    padding: 1rem;
+    color: #4400d9;
+    text-shadow: 0.05rem 0.05rem 0.00009rem black;
+    background-color: aqua;
+    text-align: justify;
+}
+
+#main-sobre--container div ul {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 1rem 1.4rem;
+    font-size: 1rem;
+    font-family: cursive;
+    color: #5000ff;
+    text-shadow: 0.05rem 0.05rem 0.00009rem black;
+}
+
+
