@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+https://w7.pngwing.com/pngs/273/225/png-transparent-bash-shell-script-gnu-bourne-shell-shell.png
+
+https://img1.gratispng.com/20180804/aaz/kisspng-postgresql-object-relational-database-oracle-datab-portfolio-whitebolt-whitebolt-5b65f8213f29d6.5042016815334093132587.jpg
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,5 +1,18 @@
 
 
+
+/* Commom Area */
+
+.main-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: .15rem .2rem 0.009rem black;
+    margin: 1rem;
+}
+
+
 /* Header Área */
 header {
     width: 100vw;
@@ -19,7 +32,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 1rem 1rem;
 }
 
@@ -30,6 +43,7 @@ header nav ul li {
     font-weight: bold;
     font-family: cursive;
     transition: all ease-in .3s;
+    margin-right: .5rem;
 }
 
 header nav ul li:nth-child(8) {
@@ -117,7 +131,6 @@ header nav ul li:nth-child(1n+8)>a:hover {
 
 section {
     width: 100vw;
-    height: 100vh;
     position: relative;
     top: -4rem;
     border: 8px double black;
@@ -126,20 +139,10 @@ section {
 #main-sobre--container {
     position: relative;
     width: 100%;
-    background: linear-gradient(to right, white 15%, #bb00ffdb 70%);
+    background: linear-gradient(to left, white 15%, #bb00ffdb 70%);
 }
 
 /* Sobre area */
-
-.main-title {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: 'Press Start 2P', cursive;
-    color: #00e7ff;
-    text-shadow: .15rem .2rem 0.009rem black;
-    margin: 1rem;
-}
 
 #main-sobre--container div p{
     max-width: 50%;
@@ -160,8 +163,32 @@ section {
     padding: 1rem 1.4rem;
     font-size: 1rem;
     font-family: cursive;
-    color: #5000ff;
+    color: #13003e;
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
 }
 
+#main-sobre--container .main-title {
+    color: #00e7ff;
+}
+
+
+/* Skills area */
+
+#main-skills--container {
+    background: linear-gradient(to right, white 15%, aqua 70%);
+}
+
+#main-skills--container .main-title {
+    color: #9700ff;
+}
+
+#main-skills--container div ul {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 1rem 1.4rem;
+    font-size: 1rem;
+    font-family: cursive;
+    color: #5000ff;
+    text-shadow: 0.05rem 0.05rem 0.00009rem black;
+}
 

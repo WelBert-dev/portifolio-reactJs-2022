@@ -1,0 +1,42 @@
+/*.wrapper-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 80%;
+}
+
+.skill-tec {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    max-width: 30%;
+}
+
+.icon {
+    max-width: 6rem;
+    max-height: 6rem;
+
+} */
+
+
+.wrapper-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon {
+    max-width: 6rem;
+    max-height: 6rem;
+}
+
+.skill-tec {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1rem;
+}
+
+.right {
+    margin-left: 1rem;
+}
