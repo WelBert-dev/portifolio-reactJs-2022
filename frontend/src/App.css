@@ -5,11 +5,17 @@
 
 .main-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
-    text-shadow: .15rem .2rem 0.009rem black;
-    margin: 1rem;
+    text-shadow: .15rem .2rem 0.09rem black;
+    margin: 1rem auto;
+    background-color: #9700ff;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    border: 4px double black;
+    width: 50%;
+    color: white;
 }
 
 
@@ -34,29 +40,13 @@ header nav ul {
     display: flex;
     justify-content: flex-start;
     padding: 1rem 1rem;
-}
-
-header nav ul li {
-    list-style: none;
-    color: #0877c4;
     font-size: 1rem;
     font-weight: bold;
     font-family: cursive;
-    transition: all ease-in .3s;
-    margin-right: .5rem;
-}
-
-header nav ul li:nth-child(8) {
-    margin-right: 16px;
-}
-
-header nav ul li:hover {
-    transform: scale(1.05);
-}
-
-header nav ul li a {
-    text-decoration: none;
     list-style: none;
+}
+
+header nav ul li {
     border: 4px double black;
     border-radius: 10%;
     padding: .5rem;
@@ -66,12 +56,23 @@ header nav ul li a {
     transition: all ease-in .3s;
     text-shadow: 0.15rem .09rem 0.009rem black;
     background: linear-gradient(to right, #eb00ffb3 15%, #21b3faed 70%);
+    margin-right: .8rem;
 }
 
 header nav ul li a:hover {
+    color: black;
+}
+
+header nav ul li:hover {
     box-shadow: .6rem .1rem .2rem black;
-    background: linear-gradient(to right, transparent 80%, #e2e2e2d2 20%);
-    transform: rotateZ(180deg);
+    /*background: linear-gradient(to right, transparent 80%, #e2e2e2d2 20%);*/
+    transform: scale(1.05);
+    background: #21b3faed;
+    border-color: white;
+}
+
+header nav ul li a {
+    text-decoration: none;
 }
 
 header nav ul li a:visited {
@@ -80,21 +81,9 @@ header nav ul li a:visited {
     color: #ffffff;
 }
 
-header nav ul li:nth-child(1n+5)>a:hover {
+/*header nav ul li:nth-child(1n+5)>a:hover {
     background: linear-gradient(to right, transparent 70%, #bebebebd 30%);
-}
-
-header nav ul li:nth-child(1n+6)>a:hover {
-    background: linear-gradient(to right, transparent 40%, #7e7e7ec4 60%);
-}
-
-header nav ul li:nth-child(1n+7)>a:hover {
-    background: linear-gradient(to right, transparent 20%, #6d6d6d7c 80%);
-}
-
-header nav ul li:nth-child(1n+8)>a:hover {
-    background: linear-gradient(to right, transparent 10%, #57575791 90%);
-}
+}*/
 
 .main-header--container {
     width: 100%;
@@ -167,19 +156,10 @@ section {
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
 }
 
-#main-sobre--container .main-title {
-    color: #00e7ff;
-}
-
-
 /* Skills area */
 
 #main-skills--container {
     background: linear-gradient(to right, white 15%, aqua 70%);
-}
-
-#main-skills--container .main-title {
-    color: #9700ff;
 }
 
 #main-skills--container div ul {
@@ -192,3 +172,8 @@ section {
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
 }
 
+/* Projects area */
+
+#main-projects--container {
+    background: linear-gradient(to left, white 15%, rgb(255, 0, 179) 70%);
+}

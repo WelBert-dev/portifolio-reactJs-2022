@@ -3,6 +3,7 @@ import './App.css';
 import WelbertBg from './resources/wellisonPerfil.jpg';
 
 import WrapperSkills from './components/WrapperSkills';
+import WrapperProjects from './components/WrapperProjects';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <header>
         <nav>
           <ul>
-            <li><a href="#main-sobre" rel="Link Sobre">Sobre</a></li>
+            <a href="#main-sobre"><li>Sobre</li></a>
             <li><a href="#main-skills" rel="Link Linguagens">Skills</a></li>        
             <li><a href="#main-projetos" rel="Link Projetos">Projetos</a></li>
             <li><a href="#main-interesses" rel="Link Interesses">Interesses</a></li>
@@ -53,6 +54,12 @@ function App() {
             <div>
               <h1 className="main-title">&lsaquo;Skills/&rsaquo;</h1>
               <WrapperSkills />
+            </div>
+        </section>
+        <section id="main-projects--container">
+            <div>
+            <h1 className="main-title">&lsaquo;Projetos/&rsaquo;</h1>
+              <WrapperProjects/>
             </div>
         </section>
       </main>
