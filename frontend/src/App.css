@@ -175,5 +175,5 @@ section {
 /* Projects area */
 
 #main-projects--container {
-    background: linear-gradient(to left, white 15%, rgb(255, 0, 179) 70%);
+    background: linear-gradient(to left, white 15%, rgba(255, 0, 0, 0.82) 75%);
 }

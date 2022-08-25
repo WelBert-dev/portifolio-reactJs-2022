@@ -20,17 +20,45 @@
     background: linear-gradient(to right, #fff 2%, rgba(255, 0, 0, 0.82) 75%);
 }
 
+.projects-title--container {
+    background-color: #ff3030;
+    border: 4px double #2f0000;
+    border-radius: 10px;
+}
+
 .projects-title {
+    padding: 1rem 1rem .2rem 1rem;
     font-size: 1rem;
     font-weight: bold;
     font-family: 'press start 2p';
     text-align: center;
-    padding: 1rem;
-    background-color: #ff3030;
-    border: 4px double #2f0000;
-    border-radius: 10px;
     color: #040404;
     text-shadow: .05rem .05rem .05rem aliceblue;
+}
+
+.projects-title--container > div {
+    display: flex
+}
+
+.projects-title--container div a {
+    color: black;
+    padding: .2rem;
+    font-size: 1.5rem;
+}
+
+.projects-title--container p {
+    text-align: center;
+    font-size: .7rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    padding: 0 0 .2rem 0;
+}
+
+.projects-title--container spam {
+    font-size: .7rem;
+    font-weight: bold;
+    color: rgb(255, 166, 0);
 }
 
 .projects-subtitle {
@@ -41,12 +69,31 @@
 }
 
 .projects-description--container {
-    margin: 1rem;
+    margin: 1rem 1rem 0 1rem;
     font-size: .8rem;
     font-family: cursive;
     color: black;
-    text-shadow: .04rem .04rem .05rem aliceblue;
-    line-height: 1.2rem;
+    line-height: 1rem;
     font-weight: bold;
+    list-style-type: none;
+}
+
+.projects-description--container ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.projects-description--container ul li::marker{
+    color: #a80000;
+}
+
+.projects-subdescription--container {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.projects-subdescription--container p {
+    font-size: .8rem;
+    font-weight: bold;
+    text-align: justify;
 }
 
