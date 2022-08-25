@@ -3,6 +3,10 @@
 
 /* Commom Area */
 
+.d-none {
+    display: none;
+}
+
 .main-title {
     text-align: center;
     font-size: 1.5rem;
@@ -25,60 +29,6 @@ header {
     height: 100vh;
     background: linear-gradient(to right, white 15%, #6a6767 85%);
     border: 8px double black;
-}
-
-/* navbar */
-
-header nav {
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-    /* background: linear-gradient(to right, white 15%, #6a6767 85%); */
-}
-
-header nav ul {
-    display: flex;
-    justify-content: flex-start;
-    padding: 1rem 1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    font-family: cursive;
-    list-style: none;
-}
-
-header nav ul li {
-    border: 4px double black;
-    border-radius: 10%;
-    padding: .5rem;
-    box-shadow: .1rem .1rem .2rem black;
-    /* background-color: #f4b41a; */
-    background-color: white;
-    transition: all ease-in .3s;
-    text-shadow: 0.15rem .09rem 0.009rem black;
-    background: linear-gradient(to right, #eb00ffb3 15%, #21b3faed 70%);
-    margin-right: .8rem;
-}
-
-header nav ul li a:hover {
-    color: black;
-}
-
-header nav ul li:hover {
-    box-shadow: .6rem .1rem .2rem black;
-    /*background: linear-gradient(to right, transparent 80%, #e2e2e2d2 20%);*/
-    transform: scale(1.05);
-    background: #21b3faed;
-    border-color: white;
-}
-
-header nav ul li a {
-    text-decoration: none;
-}
-
-header nav ul li a:visited {
-    list-style: none;
-    text-decoration: none;
-    color: #ffffff;
 }
 
 /*header nav ul li:nth-child(1n+5)>a:hover {

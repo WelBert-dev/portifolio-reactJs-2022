@@ -2,23 +2,16 @@ import './App.css';
 
 import WelbertBg from './resources/wellisonPerfil.jpg';
 
+import MainNavbar from './components/MainNavbar';
 import WrapperSkills from './components/WrapperSkills';
 import WrapperProjects from './components/WrapperProjects';
+
 
 function App() {
   return (
     <div className="App">
       <header>
-        <nav>
-          <ul>
-            <a href="#main-sobre"><li>Sobre</li></a>
-            <li><a href="#main-skills" rel="Link Linguagens">Skills</a></li>        
-            <li><a href="#main-projetos" rel="Link Projetos">Projetos</a></li>
-            <li><a href="#main-interesses" rel="Link Interesses">Interesses</a></li>
-            <li><a href="#main-formacao" rel="Link Formação">Formação</a></li>           
-            <li><a href="#main-contatos" rel="Link Contatos">Contatos</a></li>
-          </ul>
-        </nav>
+        <MainNavbar />
         <div className="main-header--container">
           <div className="main-header--left">
             <div>
