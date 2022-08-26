@@ -1,0 +1,88 @@
+.main-header--container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.main-header--left > div > h1 {
+    color: #0877c4;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    text-shadow: .18rem .18rem .2rem black;
+}
+
+
+.main-header--right {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    flex-grow: 10;
+}
+
+@media (max-width: 700px)
+{
+    
+    .main-header--container {
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+    .main-header--left {
+        order: 2;
+        flex-grow: 3;
+        position: absolute;
+        margin-bottom: 5rem;
+    }
+    .main-header--left div {
+
+    }
+
+    .main-header--right {
+        order: 1;
+        width: 100vw;
+    }
+    section {
+        top: 0;
+    }
+}
+
+@media (max-width: 400px)
+{
+    
+    .main-header--container {
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+    .main-header--left {
+        order: 2;
+        flex-grow: 3;
+        position: absolute;
+        margin-bottom: 5rem;
+    }
+    .main-header--left div {
+
+    }
+
+    .main-header--right {
+        order: 1;
+        width: 100vw;
+    }
+    .main-header--left > div > h1 {
+     font-size: 1rem;
+    }
+    section {
+        top: 0;
+    }
+}

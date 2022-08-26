@@ -1,10 +1,9 @@
 import './App.css';
 
-import WelbertBg from './resources/wellisonPerfil.jpg';
-
 import MainNavbar from './components/MainNavbar';
 import WrapperSkills from './components/WrapperSkills';
 import WrapperProjects from './components/WrapperProjects';
+import MainHeaderFeatured from './components/MainHeaderFeatured';
 
 
 function App() {
@@ -12,18 +11,7 @@ function App() {
     <div className="App">
       <header>
         <MainNavbar />
-        <div className="main-header--container">
-          <div className="main-header--left">
-            <div>
-              <h1>Desenvolvedor</h1>
-              <h1>Web2.0</h1>
-              <h1>&lsaquo;FullStack/&rsaquo;</h1>
-            </div>
-          </div>
-          <div className="main-header--right" style={{backgroundImage: `linear-gradient(to right, #b5b5b5 2%, transparent 25%), url(${WelbertBg})`}}>
-
-          </div>
-        </div>
+        <MainHeaderFeatured />
       </header>
       <main>
         <section id="main-sobre--container">
