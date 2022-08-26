@@ -13,20 +13,22 @@ export default function MainNavbar() {
         { // responsivo ativo e botao precionado
             document.getElementById("btn-hamburguer").style.display = 'none';
             document.getElementById("btn-hamburguer").style.position = 'relative';
-            navRef.current.classList.toggle("responsive_nav-opacityUm");
-            
+            document.getElementById("navbar-container").classList.remove("responsive_nav-opacityZero");
+            document.getElementById("navbar-container").classList.add("responsive_nav-opacityUm");
+            console.log("entrou no if");
         }else 
         {
             document.getElementById("btn-hamburguer").style.display = 'block';
             document.getElementById("btn-hamburguer").style.position = 'fixed';
-            navRef.current.classList.toggle("responsive_nav-opacityZero");
+            document.getElementById("navbar-container").classList.remove("responsive_nav-opacityUm");
+            document.getElementById("navbar-container").classList.add("responsive_nav-opacityZero");
             console.log("else");
         }
     };
 
     return (
         <>
-            <nav ref={navRef}>
+            <nav id="navbar-container" ref={navRef}>
                 <button id="nav-close-btn" className="nav-btn nav-close-btn" onClick={showNavbar}><FaTimes /></button>
                 <a href="#main-sobre">Sobre</a>
                 <a href="#main-skills" rel="Link Linguagens">Skills</a>     

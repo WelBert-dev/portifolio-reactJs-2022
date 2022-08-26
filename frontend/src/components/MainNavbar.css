@@ -4,7 +4,6 @@ header nav {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 1rem 1rem;
     opacity: 1;
     /* background: linear-gradient(to right, white 15%, #6a6767 85%); */
 }
@@ -75,6 +74,7 @@ header nav a:hover {
         width: fit-content;
         margin-left: auto;
         transform: translateX(1rem);
+        padding: 5px 5px 0 0;
     }
 
     .nav-btn.nav-close-btn > svg  {
@@ -94,7 +94,7 @@ header nav a:hover {
         background-color: #ffffff;
         border: 8px double black;
         width: 50%;
-        /*padding: 0 1rem 1rem 1rem;*/
+        padding: 0 1rem 1rem 1rem;
         z-index: 3;
     }
 
