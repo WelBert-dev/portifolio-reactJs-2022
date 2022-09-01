@@ -10,17 +10,17 @@ export default function WrapperProjects() {
         <section id="main-projects--container">
             <div>
                 <h1 className="main-title">&lsaquo;Projetos&rsaquo;</h1>
+                <hr />
                 <div className="wrapper-projects">
                     <article className="projects-single">
-                        <img className="projects-logo" src={amazonAmostra} alt="Amostra Amazon" ></img>
                         <div className="projects-right">
                             <div className="projects-title--container">
                                 <div>
-                                    <h3 className="projects-title">Clone Amazon com ReactJs e Asp.NetCore</h3>
+                                    <h3 className="projects-title">Clone Amazon ReactJs e Asp.NetCore</h3>
                                     <a href="https://github.com/welBert-dev/ecommerceWebApi-microServices-dotNetCoreMVC" target="_blank"><i className="fas fa-share-square"></i></a>
                                 </div>
                                 <p>Código do projeto clicando no botão a cima</p>
-                                <span>WEB</span>
+                                <span>WEB E2E</span>
                             </div>
                             <ul className="projects-description--container">
                                 <li>
@@ -56,17 +56,18 @@ export default function WrapperProjects() {
                                 </p>
                             </div>
                         </div>
+                        <img className="projects-logo" src={amazonAmostra} alt="Amostra Amazon" ></img>
                     </article>
+                    <hr />
                     <article className="projects-single">
-                        <img className="projects-logo" src={netflixAmostra} alt="Amostra Netflix" ></img>
                         <div className="projects-right">
                             <div className="projects-title--container">
                                 <div>
-                                    <h3 className="projects-title">Clone Netflix com Reactjs consumindo API do TMDB</h3>
+                                    <h3 className="projects-title">Clone Netflix Reactjs consumindo API TMDB</h3>
                                     <a href="https://github.com/WelBert-dev/netflixCloneWeb-NoE2E-react" target="_blank"><i className="fas fa-share-square"></i></a>
                                 </div>
                                 <p>Código do projeto clicando no botão a cima</p>
-                                <span>WEB</span>
+                                <span>WEB NoE2E</span>
                             </div>
                             <ul className="projects-description--container">
                                 <li>
@@ -108,6 +109,7 @@ export default function WrapperProjects() {
                                 </p>
                             </div>
                         </div>
+                        <img className="projects-logo" src={netflixAmostra} alt="Amostra Netflix" ></img>
                     </article>
                 </div>
             </div>
