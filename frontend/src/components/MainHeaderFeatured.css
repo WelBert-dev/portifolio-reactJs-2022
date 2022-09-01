@@ -13,7 +13,7 @@
 }
 
 .main-header--left > div > h1 {
-    color: #0877c4;
+    color: white;
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
@@ -47,6 +47,9 @@
     .main-header--left div {
 
     }
+    .main-header--left > div > h1 {
+        font-size: 1.5rem;
+       }
 
     .main-header--right {
         order: 1;

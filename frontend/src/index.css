@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: rgb(19, 252, 19);
+  --second-color: black;
+}
+
 a {
   text-decoration: none;
 }

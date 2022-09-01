@@ -16,18 +16,8 @@ function App() {
       </header>
       <main>
         <WrapperAboutMe />
-        <section id="main-skills--container">
-            <div>
-              <h1 className="main-title">&lsaquo;Skills/&rsaquo;</h1>
-              <WrapperSkills />
-            </div>
-        </section>
-        <section id="main-projects--container">
-            <div>
-            <h1 className="main-title">&lsaquo;Projetos/&rsaquo;</h1>
-              <WrapperProjects/>
-            </div>
-        </section>
+        <WrapperSkills />
+        <WrapperProjects />
       </main>
       <footer>
 

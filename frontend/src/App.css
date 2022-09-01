@@ -12,50 +12,48 @@
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
-    text-shadow: .15rem .2rem 0.09rem black;
+    text-shadow: 2px 2px 10px rgb(62, 62, 62);
     margin: 1rem auto;
-    background-color: #9700ff;
+    background-color: #000000;
     border-radius: 5px;
     padding: .5rem 1rem;
-    border: 4px double black;
-    width: 50%;
-    color: white;
+    border: 4px double var(--main-color);
+    width: max-content;
+    color: var(--main-color);
 }
-
 
 /* Header Área */
 header {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to right, white 15%, #6a6767 85%);
-    border: 8px double black;
+    background: linear-gradient(to right, #444 15%, #131313 85%);
+    border: 8px double var(--main-color);
 }
 
 section {
     width: 100vw;
     position: relative;
-    top: -4rem;
-    border: 8px double black;
+    border: 8px double var(--main-color);
 }
 
-/* Skills area */
-
-#main-skills--container {
-    background: linear-gradient(to right, white 15%, aqua 70%);
+section:nth-child(even){
+    background: linear-gradient(to right, #444 15%, #131313 85%);
 }
 
-#main-skills--container div ul {
-    max-width: 50%;
-    margin: 0 auto;
-    padding: 1rem 1.4rem;
-    font-size: 1rem;
-    font-family: cursive;
-    color: #5000ff;
-    text-shadow: 0.05rem 0.05rem 0.00009rem black;
+section:nth-child(odd){
+    background: linear-gradient(to left, #444 15%, #131313 85%);
 }
 
-/* Projects area */
+@media (max-width: 700px)
+{
+    .main-title {
+        font-size: 1.3rem;
+    }
+}
 
-#main-projects--container {
-    background: linear-gradient(to left, white 15%, rgba(255, 0, 0, 0.82) 75%);
+@media (max-width: 400px)
+{
+    .main-title {
+        font-size: 1rem;
+    }
 }

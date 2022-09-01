@@ -1,28 +1,58 @@
 #main-sobre--container {
     position: relative;
     width: 100%;
-    background: linear-gradient(to left, white 15%, #bb00ffdb 70%);
 }
 
 #main-sobre--container div p{
-    max-width: 50%;
-    margin: 0 auto;
+    max-width: max-content;
+    margin: 2rem;
     font-size: 1rem;
     font-family: cursive;
-    border: 4px double purple;
+    border: 4px double white;
     padding: 1rem;
-    color: #4400d9;
+    color: var(--main-color);
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
-    background-color: aqua;
+    background-color: black;
     text-align: justify;
 }
 
 #main-sobre--container div ul {
-    max-width: 50%;
-    margin: 0 auto;
+    max-width: max-content;
+    margin: 1.5rem;
     padding: 1rem 1.4rem;
     font-size: 1rem;
     font-family: cursive;
-    color: #13003e;
+    color: white;
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
+}
+
+@media (max-width: 700px)
+{
+    #main-sobre--container div p{
+        max-width: max-content;
+        font-size: .8rem;
+        margin: 1rem;
+    }
+
+    #main-sobre--container div ul {
+        max-width: max-content;
+        margin: 1rem;
+        font-size: .8rem;
+    }
+    
+}
+
+@media (max-width: 400px)
+{
+    #main-sobre--container div p{
+        max-width: max-content;
+        font-size: .7rem;
+        margin: 1rem;
+    }
+
+    #main-sobre--container div ul {
+        margin: 1rem;
+        font-size: .7rem;
+    }
+
 }
