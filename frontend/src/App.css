@@ -23,10 +23,6 @@
 }
 
 /* Header Área */
-header {
-    background: linear-gradient(to right, #444 15%, #131313 85%);
-    border: 4px double var(--main-color);
-}
 
 section {
     position: relative;

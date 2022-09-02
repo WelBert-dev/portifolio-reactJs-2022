@@ -2,17 +2,22 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-wrap: wrap;
+    background: linear-gradient(to right, #444 15%, #131313 85%);
+    border: 4px double var(--main-color);
+    justify-content: center;
+    align-items: center;
 }
 
 .main-header--left {
+    flex-grow: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-grow: 2;
+    margin: 1rem;
 }
 
-.main-header--left > div > h1 {
+.main-header--left > h1 {
     color: white;
     font-size: 2rem;
     font-weight: bold;
@@ -21,13 +26,17 @@
     text-shadow: .18rem .18rem .2rem black;
 }
 
-
 .main-header--right {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    flex-grow: 1;
+    height: 100%;
+    text-align: center;
+}
+
+.main-header--right img{
+    height: 100%;
     overflow: hidden;
-    flex-grow: 10;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media (max-width: 700px)
@@ -35,20 +44,20 @@
     
     .main-header--container {
         flex-direction: column;
-        justify-content: end;
         align-items: center;
+        justify-content: center;
     }
     .main-header--left {
         order: 2;
         flex-grow: 3;
         position: absolute;
-        margin-bottom: 5rem;
     }
     .main-header--left div {
 
     }
-    .main-header--left > div > h1 {
+    .main-header--left > h1 {
         font-size: 1.5rem;
+        text-shadow: 3px 3px 2px #000, -2px -2px 2px black;
        }
 
     .main-header--right {
@@ -62,30 +71,24 @@
 
 @media (max-width: 400px)
 {
-    
-    .main-header--container {
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-    }
-    .main-header--left {
-        order: 2;
-        flex-grow: 3;
-        position: absolute;
-        margin-bottom: 5rem;
-    }
-    .main-header--left div {
-
-    }
-
     .main-header--right {
         order: 1;
-        width: 100vw;
+        width: 100%;
     }
-    .main-header--left > div > h1 {
-     font-size: 1rem;
+    .main-header--left > h1 {
+     font-size: 1.3rem;
+     text-shadow: 3px 3px 2px #000, -2px -2px 2px black;
     }
     section {
         top: 0;
+    }
+
+    .main-header--right img{
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .main-header--left {
+        position: absolute;
+        margin-top: 5rem;
     }
 }

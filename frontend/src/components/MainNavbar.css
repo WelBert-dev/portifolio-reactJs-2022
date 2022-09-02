@@ -1,4 +1,5 @@
 header nav {
+    padding: .5rem;
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -63,7 +64,7 @@ header nav a:hover {
     }
 
     #btn-hamburguer {
-        background-color: white;
+        background-color: #226015;
         border: 4px double black;
         border-radius: 10px;
         padding: .4rem .4rem 0 .4rem;
@@ -105,7 +106,7 @@ header nav a:hover {
         transition: all ease 1s;
         transform: translateX(-150vw);
         background-color: #464f43;
-        border: 8px double black;
+        border: 4px double black;
         width: 50vw;
         padding: 0 1rem 1rem 1rem;
         z-index: 3;

@@ -1,23 +1,17 @@
-import './App.css';
+import { Outlet } from 'react-router-dom';
 
 import MainNavbar from './components/MainNavbar';
-import WrapperSkills from './components/WrapperSkills';
-import WrapperProjects from './components/WrapperProjects';
-import MainHeaderFeatured from './components/MainHeaderFeatured';
-import WrapperAboutMe from './components/WrapperAboutMe';
 
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header>
         <MainNavbar />
-        <MainHeaderFeatured />
       </header>
       <main>
-        <WrapperAboutMe />
-        <WrapperSkills />
-        <WrapperProjects />
+        <Outlet/>
       </main>
       <footer>
 
