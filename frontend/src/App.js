@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet, useParams } from 'react-router-dom';
 
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillFacebook } from 'react-icons/ai';
@@ -12,6 +12,7 @@ import MainNavbar from './components/MainNavbar';
 import './App.css';
 
 function App() {
+  console.log("pamonha",useParams());
   return (
     <div className="App">
       <header>
@@ -28,9 +29,9 @@ function App() {
           </div>
           <div className='footer-icons'>
             <div className='footer-icons--click'>
-              <AiFillGithub />
-              <AiFillFacebook />
-              <AiFillLinkedin />
+              <a href="https://www.github.com/WelBert-dev" target="_blank"><AiFillGithub /></a>
+              <a href="https://web.facebook.com/wellison.bertelli.7" target="_blank"><AiFillFacebook /></a>
+              <a href="https://www.linkedin.com/in/wellison-bertelli-2191ba204" target="_blank"><AiFillLinkedin /></a>
               <AiFillInstagram />
             </div>
             <div className='footer-icons--noClick'>

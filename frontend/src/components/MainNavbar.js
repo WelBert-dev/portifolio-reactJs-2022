@@ -25,7 +25,7 @@ export default function MainNavbar() {
             console.log("else");
         }  
     };
-    
+
     return (
         <>
             <nav id="navbar-container" ref={navRef} >
@@ -35,7 +35,6 @@ export default function MainNavbar() {
                 <a href="#main-projetos" rel="Link Projetos">Projetos</a>
                 <a href="#main-interesses" rel="Link Interesses">Interesses</a>
                 <a href="#main-formacao" rel="Link Formação">Formação</a>        
-                <a href="#main-contatos" rel="Link Contatos">Contatos</a>
             </nav>
             <button id="btn-hamburguer" className="nav-btn" onClick={showNavbar}><FaBars /></button>
         </>

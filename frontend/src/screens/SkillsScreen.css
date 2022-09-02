@@ -297,12 +297,21 @@ p[data-value] {
 
     }
     .icon {
-        max-width: 5rem;
-        max-height: 5rem;
+        max-width: 4rem;
+        max-height: 4rem;
     }
 
     .right {
         margin-left: .8rem;
+        font-size: .8rem;
+    }
+    
+    .skill-tec div progress {
+        width: 6rem;
+        height: 1rem;
+    }
+    
+    .right {
         font-size: .8rem;
     }
 }
@@ -310,12 +319,16 @@ p[data-value] {
 @media (max-width: 400px)
 {
     .icon {
-        max-width: 4rem;
-        max-height: 4rem;
+        max-width: 3rem;
+        max-height: 3rem;
     }
 
     .right {
-        margin-left: .7rem;
-        font-size: .7rem;
+        font-size: .6rem;
+    }
+    
+    .skill-tec div progress {
+        width: 4rem;
+        height: .8rem;
     }
 }

@@ -1,4 +1,7 @@
 
+.App {
+    height: 100vh;;
+}
 
 
 /* Commom Area */
@@ -61,6 +64,7 @@ footer {
     line-height: 1rem;
     padding: .5rem;
     text-shadow: 1px 1px black;
+    min-height: 40%;
 }
 
 footer > div {
@@ -106,7 +110,12 @@ footer h3 {
 .footer-icons--click svg:hover {
     box-shadow: none;
     cursor: pointer;
+}
 
+.footer-icons--click svg:nth-child(4):hover {
+    box-shadow: 3px 3px 3px black, -1px -1px 3px black;
+    cursor: pointer;
+    background-color: red;
 }
 
 .footer-icons--noClick {
@@ -145,9 +154,6 @@ footer h3 {
     .footer-icons--noClick div svg {
         font-size: 1.5rem;
     }
-    footer {
-        font-size: .6rem;
-    }
 
     footer span {
         font-size: .8rem;
@@ -164,7 +170,9 @@ footer h3 {
 @media (max-width: 400px)
 {
     .main-title {
-        font-size: 1rem;
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
     }
     .footer-icons {
         flex-direction: column;
