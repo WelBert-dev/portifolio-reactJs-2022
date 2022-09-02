@@ -1,11 +1,17 @@
 #main-sobre--container {
-    position: relative;
     width: 100%;
+}
+
+#main-sobre--container div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #main-sobre--container div p{
     max-width: max-content;
-    margin: 2rem;
+    margin: 0 2rem;
     font-size: 1rem;
     font-family: cursive;
     border: 4px double white;
@@ -18,26 +24,38 @@
 
 #main-sobre--container div ul {
     max-width: max-content;
-    margin: 1.5rem;
-    padding: 1rem 1.4rem;
+    padding: 0 1rem 1rem 1rem;
     font-size: 1rem;
     font-family: cursive;
     color: white;
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
+    list-style-position: inside;
+    margin: 0 1rem;
+    padding: 1rem;
 }
+
 
 @media (max-width: 700px)
 {
+    .main-title {
+        margin-top: 4rem;
+    }
+
+    #main-sobre--container div {
+        justify-content: flex-start;
+    }
+
     #main-sobre--container div p{
         max-width: max-content;
         font-size: .8rem;
-        margin: 1rem;
+        margin: 0 1rem;
     }
 
     #main-sobre--container div ul {
         max-width: max-content;
-        margin: 1rem;
         font-size: .8rem;
+        margin: 1rem;
+        padding: 0;
     }
     
 }
@@ -51,7 +69,11 @@
     }
 
     #main-sobre--container div ul {
-        margin: 1rem;
         font-size: .7rem;
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    #main-sobre--container div {
+        justify-content: flex-start;
     }
 }

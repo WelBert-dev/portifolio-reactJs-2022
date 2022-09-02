@@ -1,8 +1,9 @@
 import React from 'react';
 
-import './WrapperAboutMe.css';
+import './AboutMeScreen.css';
 
-export default function WrapperAboutMe() {
+export default function AboutMeScreen() {
+
     return (
         <section id="main-sobre--container">
             <div>

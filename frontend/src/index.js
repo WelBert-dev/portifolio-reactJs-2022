@@ -6,6 +6,8 @@ import './index.css';
 import App from './App';
 
 import HomeScreen from './screens/HomeScreen';
+import AboutMeScreen from './screens/AboutMeScreen';
+import SkillsScreen from './screens/SkillsScreen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,9 +16,9 @@ root.render(
         <Routes>
           <Route element={<App />} >
             <Route path="/" element={<HomeScreen />} exact/>
-            {/* <Route path="aboutMe" element={<AboutMeScreen />} />
+            <Route path="aboutMe" element={<AboutMeScreen />} />
             <Route path="skills" element={<SkillsScreen />} />
-            <Route path="projects" element={<ProjectsScreen />} />
+            {/*<Route path="projects" element={<ProjectsScreen />} />
             <Route path="interests" element={<InterestsScreen />} /> */}
           </Route>
         </Routes>

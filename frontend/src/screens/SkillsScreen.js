@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './WrapperSkills.css';
+import './SkillsScreen.css';
 
-export default function WrapperSkills() {
+export default function SkillsScreen() {
     return (
         <section id="main-skills--container">
             <div>

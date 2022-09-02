@@ -21,7 +21,7 @@ header nav a {
     background: linear-gradient(to right, #252525e0 15%, #1b1b1bed 70%);
     text-shadow: 0.15rem .09rem 0.009rem black;
     transition: all ease .3s;
-    color: rgb(19, 252, 19);
+    color: white;
     text-decoration: none;
 }
 

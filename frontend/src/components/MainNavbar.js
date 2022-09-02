@@ -23,15 +23,15 @@ export default function MainNavbar() {
             document.getElementById("navbar-container").classList.remove("responsive_nav-opacityUm");
             document.getElementById("navbar-container").classList.add("responsive_nav-opacityZero");
             console.log("else");
-        }
+        }  
     };
-
+    
     return (
         <>
-            <nav id="navbar-container" ref={navRef}>
+            <nav id="navbar-container" ref={navRef} >
                 <button id="nav-close-btn" className="nav-btn nav-close-btn" onClick={showNavbar}><FaTimes /></button>
-                <a href="#main-sobre">Sobre</a>
-                <a href="#main-skills" rel="Link Linguagens">Skills</a>     
+                <a href="/aboutMe">Sobre</a>
+                <a href="/skills" rel="Link Linguagens">Skills</a>     
                 <a href="#main-projetos" rel="Link Projetos">Projetos</a>
                 <a href="#main-interesses" rel="Link Interesses">Interesses</a>
                 <a href="#main-formacao" rel="Link Formação">Formação</a>        
