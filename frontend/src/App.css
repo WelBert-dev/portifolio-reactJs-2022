@@ -19,7 +19,7 @@
     padding: .5rem 1rem;
     border: 4px double var(--main-color);
     width: max-content;
-    color: var(--main-color);
+    color: rgb(19, 252, 19);
 }
 
 /* Header Área */

@@ -32,11 +32,12 @@
     margin: 0 auto;
     gap: 2rem;
     align-content: center;
+    padding-bottom: 1rem;
 }
 
 .icon {
-    max-width: 6rem;
-    max-height: 6rem;
+    width: 5rem;
+    height: 5rem;
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
@@ -46,8 +47,10 @@
 .skill-tec {
    display: flex;
    align-items: center;
-   justify-content: center;
-   max-width: max-content;
+}
+
+.skill-tec div progress {
+    width: 8rem;
 }
 
 .right {

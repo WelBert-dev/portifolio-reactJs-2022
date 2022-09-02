@@ -24,18 +24,18 @@
     flex-grow: 1fr;
     border: 4px double black;
     border-radius: 10px;
-    background: linear-gradient(to right, #fff 2%, rgba(255, 0, 0, 0.82) 75%);
+    background: linear-gradient(to right, #fff 2%, rgb(209 35 35 / 72%) 75%);
 }
 
 .projects-title--container {
-    background-color: #ff3030;
+    background-color: #b54141;
     border: 4px double #2f0000;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding-bottom: .5rem;
 }
 
 .projects-title--container > div {
@@ -69,9 +69,9 @@
 }
 
 .projects-title--container p {
+    font-family: cursive;
     text-align: center;
     font-size: .7rem;
-    font-weight: bold;
     color: white;
     text-decoration: underline;
     padding: 0 0 .2rem 0;
@@ -88,10 +88,11 @@
     color: #c81515;
     font-size: .8rem;
     text-shadow: 1px 1px black;
+    padding: 1rem 1rem 1rem 0;
 }
 
 .projects-description--container {
-    margin: 1rem 1rem 0 1rem;
+    margin: 0 1rem 0 1rem;
     font-family: cursive;
     color: black;
     font-weight: bold;

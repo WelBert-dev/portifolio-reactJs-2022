@@ -11,14 +11,14 @@ export default function WrapperSkills() {
                     <article className="skill-tec">
                         <img className="icon" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png" alt="Logo do JavaScript" ></img>
                         <div className="right">
-                            <h3 className="title-skill">JavaScript ESC8</h3>
+                            <h3 className="title-skill">JavaScript</h3>
                             <progress className="progress-bar" max="100" value="70">70%</progress>
                         </div>
                     </article>
                     <article className="skill-tec">
                         <img className="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="Logo do HTML5" ></img>
                         <div className="right">
-                            <h3 className="title-skill">HTML5 Semântico</h3>
+                            <h3 className="title-skill">HTML5</h3>
                             <progress className="progress-bar" max="100" value="70">70%</progress>
                         </div>
                     </article>

@@ -4,6 +4,7 @@ import './WrapperProjects.css';
 
 import amazonAmostra from '../resources/amazona.jpg';
 import netflixAmostra from '../resources/NetFlixCloneWeb.gif';
+import auauMiauNoFrameworkAmostra from '../resources/auauMiauNoFramework.png';
 
 export default function WrapperProjects() {
     return (
@@ -50,7 +51,7 @@ export default function WrapperProjects() {
                                 <h3 class="projects-subtitle">Descrição</h3>
                                 <p>
                                     Clone da amazon web utilizando as ferramentas a cima, resultado da junção de duas tecnologias distintas
-                                    sendo elas o JavaScript Reactjs do Facebook no frontend e o C# Asp.NetCore da Microsoft no backend,
+                                    sendo elas o Reactjs do Facebook no frontend e o Asp.NetCore da Microsoft no backend,
                                     com auxilio das bibliotecas mencionadas... projeto parcialmente concluído, ainda vai receber novas funcionalidades
                                     e o objetivo é chegar bem próximo do sistema original.
                                 </p>
@@ -161,7 +162,7 @@ export default function WrapperProjects() {
                                 </p>
                             </div>
                         </div>
-                        <img className="projects-logo" src={amazonAmostra} alt="Amostra AuauMiau NoFamework" ></img>
+                        <img className="projects-logo" src={auauMiauNoFrameworkAmostra} alt="Amostra AuauMiau NoFamework" ></img>
                     </article>
                     <hr />
                 </div>
