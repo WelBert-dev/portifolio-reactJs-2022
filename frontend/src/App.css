@@ -24,16 +24,13 @@
 
 /* Header Área */
 header {
-    width: 100vw;
-    height: 100vh;
     background: linear-gradient(to right, #444 15%, #131313 85%);
-    border: 8px double var(--main-color);
+    border: 4px double var(--main-color);
 }
 
 section {
-    width: 100vw;
     position: relative;
-    border: 8px double var(--main-color);
+    border: 4px double var(--main-color);
 }
 
 section:nth-child(even){

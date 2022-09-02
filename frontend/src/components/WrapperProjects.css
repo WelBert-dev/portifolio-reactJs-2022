@@ -57,7 +57,7 @@
     font-family: 'press start 2p';
     text-align: center;
     color: #040404;
-    text-shadow: 1px 1px white;
+    text-shadow: .5px .5px white;
     margin: 0 auto;
     
 }
@@ -120,6 +120,7 @@
     font-size: .8rem;
     font-weight: bold;
     text-align: justify;
+    max-width: 50%;
 }
 
 @media (max-width: 700px)
@@ -144,6 +145,7 @@
 
     .projects-subdescription--container p {
         font-size: .7rem;
+        max-width: 90%;
     }
     
 }
@@ -170,5 +172,6 @@
 
     .projects-subdescription--container p {
         font-size: .6rem;
+        max-width: 95%;
     }
 }
