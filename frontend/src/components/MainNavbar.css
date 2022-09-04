@@ -8,6 +8,8 @@ header nav {
     opacity: 1;
     gap: .8rem;
     /* background: linear-gradient(to right, white 15%, #6a6767 85%); */
+    background-color: #226015;
+    border: 4px double black;
 }
 
 header nav a {

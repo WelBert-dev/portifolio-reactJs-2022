@@ -10,8 +10,8 @@
 }
 
 #main-sobre--container div p{
-    max-width: max-content;
-    margin: 0 2rem;
+    max-width: 70%;
+    margin: 0 auto;
     font-size: 1rem;
     font-family: cursive;
     border: 4px double white;

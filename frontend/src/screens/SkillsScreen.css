@@ -36,8 +36,8 @@
 }
 
 .icon {
-    width: 5rem;
-    height: 5rem;
+    width: 4.5rem;
+    height: 4.5rem;
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
@@ -51,6 +51,7 @@
 
 .skill-tec div progress {
     width: 8rem;
+    height: 1rem;
 }
 
 .right {
