@@ -30,11 +30,13 @@ export default function MainNavbar() {
         <>
             <nav id="navbar-container" ref={navRef} >
                 <button id="nav-close-btn" className="nav-btn nav-close-btn" onClick={showNavbar}><FaTimes /></button>
+                <a href="/">Home</a>
                 <a href="/aboutMe">Sobre</a>
                 <a href="/skills" rel="Link Linguagens">Skills</a>     
-                <a href="#main-projetos" rel="Link Projetos">Projetos</a>
+                <a href="/projects" rel="Link Projetos">Projetos</a>
                 <a href="#main-interesses" rel="Link Interesses">Interesses</a>
-                <a href="#main-formacao" rel="Link Formação">Formação</a>        
+                <a href="#main-formacao" rel="Link Formação">Formação</a>
+                <a href="curriculumVitae" rel="Link Curriculo">Curriculo</a>        
             </nav>
             <button id="btn-hamburguer" className="nav-btn" onClick={showNavbar}><FaBars /></button>
         </>

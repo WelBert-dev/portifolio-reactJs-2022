@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './WrapperProjects.css';
+import './ProjectsScreen.css';
 
 import amazonAmostra from '../resources/amazona.jpg';
 import netflixAmostra from '../resources/NetFlixCloneWeb.gif';
 import auauMiauNoFrameworkAmostra from '../resources/auauMiauNoFramework.png';
 
-export default function WrapperProjects() {
+export default function ProjectsScreen() {
     return (
         <section id="main-projects--container">
             <div>
