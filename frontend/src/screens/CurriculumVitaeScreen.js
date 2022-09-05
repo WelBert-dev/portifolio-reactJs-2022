@@ -106,7 +106,6 @@ export default function CurriculumVitaeScreen() {
                                          <div className="template__section__container">
                                              <div className="template__section__simple">
                                                  <div>Desenvolvedor e entusiasta do mundo da programação e tecnologia, estudando todos os dias de segunda a segunda, e fazendo curso tecnico em informatica voltado na programação e na stack web2, com objetivo de após o termino do curso corrente, ingressar em B.C.C no IFSP, continuar a estudar as tecnologias (reactJS, reactNative, MySQL Avançado, CSS Avançado (Animações), Canvas, SVG, NodeJS, C# Avançado e um dia pretendo ser FULLSTACK na programação Web (Desktop e Mobile) e também pretendo estudar mais sobre distro GNU/Linux, e após senioridade na web2, pretendo estudar Web3 e BlockChain.</div>
-                                                 <div><br /></div>
                                              </div>
                                          </div>
                                          </section>
@@ -114,7 +113,7 @@ export default function CurriculumVitaeScreen() {
                                  </div>
                                  <div className="template__main">
                                      <section data-section="work-experience" data-section-id="fd4905eb-e158-4281-944f-44e5d977a48d" id="work-experience" className="">
-                                         <p className="template__section__title"><span>Experiência</span></p>
+                                         <p className="template__section__title"><span>Experiência <hr /></span></p>
                                          <div className="template__section__container">
                                          <div data-subsection-position="0" className="template__section template__section__experience template__section--border template__section--twoColumns">
                                              <div className="template__section__left">
@@ -140,7 +139,7 @@ export default function CurriculumVitaeScreen() {
                                          </div>
                                      </section>
                                      <section data-section="education" data-section-id="3eaaf201-7b4e-4ff4-a6eb-370f9ecfc0f4" id="education" className="">
-                                         <p className="template__section__title"><span>Educação</span></p>
+                                         <p className="template__section__title"><span>Educação<hr /></span></p>
                                          <div className="template__section__container">
                                          <div data-subsection-position="0" className="template__section template__section__education template__section--twoColumns">
                                              <div className="template__section__left">
@@ -154,7 +153,7 @@ export default function CurriculumVitaeScreen() {
                                              <div className="template__section__right">
                                                  <p className="template__section__degree">Tecnico em Informática</p>
                                                  <p className="template__section__college">Instituto Federal de Educação Ciências e Tecnologias de São Paulo</p>
-                                                 <p className="template__section__description">Curso voltado para programação e desenvolvimento web, sendo no primeiro ano voltado na stack backend e no segundo ano voltado nas tecnologias frontend, desde a parte de levantamento de requisitos (história de usuário), análise (modelagem caso de uso), Prototipação (baixa, média e alta fidelidade), Projeto (tecnologias), até a parte de desenvolvimento em sí, fora os estudos pessoais e também participo das ações da instituição, para agregar ainda mais conhecimento/valor.<br /></p>
+                                                 <p className="template__section__description">Curso voltado para programação e desenvolvimento web, sendo no primeiro ano voltado na stack backend e no segundo ano voltado nas tecnologias frontend, desde a parte de levantamento de requisitos (história de usuário), análise (modelagem caso de uso), Prototipação (baixa, média e alta fidelidade), Projeto (tecnologias), até a parte de desenvolvimento em sí, fora os estudos pessoais e também participo das ações da instituição, para agregar ainda mais conhecimento/valor.</p>
                                              </div>
                                          </div>
                                          </div>
@@ -165,7 +164,7 @@ export default function CurriculumVitaeScreen() {
                                              <div className="template__section__simple">
                                                  <div>Clone da Amazon web E2E (Ponta a ponta com responsividade)</div>
                                                  <div>+ Backend: API Asp.NetCore Microservices MVC , 80% REST, EntityFrameworkCore, Migrations, Mapeamento/parsing Entidade &lt;=&gt; DTO's (AutoMapper).</div>
-                                                 <div>+ Frontend: ReactJs, Redux, Hooks, Flexbox, Grid, HTML semântico.</div> <br />                  
+                                                 <div>+ Frontend: ReactJs, Redux, Hooks, Flexbox, Grid, HTML semântico.</div>             
                                                  <div>- Dentre outros no Github...</div>
                                                  <div>- Link: https://www.github.com/WelBert-dev</div>
                                              </div>

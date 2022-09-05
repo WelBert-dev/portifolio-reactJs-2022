@@ -68,7 +68,7 @@
     }
 }
 
-@media (max-width: 400px)
+@media (max-width: 425px)
 {
     .main-header--right {
         order: 1;
