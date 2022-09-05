@@ -41,7 +41,7 @@
     height: 4.5rem;
     background-color: white;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: .2rem;
     box-shadow: 2px 2px 3px black;
 }
 
@@ -318,8 +318,11 @@ p[data-value] {
     }
 }
 
-@media (max-width: 400px)
+@media (max-width: 425px)
 {
+    #main-skills--container .main-title {
+        margin-top: 3rem;
+    }
     .icon {
         max-width: 3rem;
         max-height: 3rem;

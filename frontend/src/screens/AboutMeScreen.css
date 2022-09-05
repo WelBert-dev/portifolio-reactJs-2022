@@ -39,7 +39,7 @@
 @media (max-width: 800px)
 {
     .main-title {
-        margin-top: 4rem;
+        margin-top: 0;
     }
 
     #main-sobre--container div {
@@ -61,8 +61,12 @@
     
 }
 
-@media (max-width: 400px)
+@media (max-width: 425px)
 {
+    #main-sobre--container .main-title {
+        margin-top: 3rem;
+    }
+
     #main-sobre--container div p{
         max-width: max-content;
         font-size: .7rem;

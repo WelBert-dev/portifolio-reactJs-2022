@@ -172,8 +172,11 @@
     
 }
 
-@media (max-width: 400px)
+@media (max-width: 425px)
 {
+    #main-projects--container .main-title {
+        margin-top: 3rem;
+    }
     .projects-title {
         font-size: .7rem;     
     }

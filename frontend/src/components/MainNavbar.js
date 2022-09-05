@@ -34,7 +34,7 @@ export default function MainNavbar() {
                 <a href="/aboutMe">Sobre</a>
                 <a href="/skills" rel="Link Linguagens">Skills</a>     
                 <a href="/projects" rel="Link Projetos">Projetos</a>
-                <a href="curriculumVitae" rel="Link Curriculo">Curriculo</a>        
+                <a href="/curriculumVitae" rel="Link Curriculo">Curriculo</a>        
             </nav>
             <button id="btn-hamburguer" className="nav-btn" onClick={showNavbar}><FaBars /></button>
         </>
