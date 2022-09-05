@@ -1,8 +1,6 @@
 .main-header--container {
     width: 100vw;
     display: flex;
-    background: linear-gradient(to right, #444 15%, #131313 85%);
-    border: 4px double var(--main-color);
     justify-content: center;
     align-items: center;
 }

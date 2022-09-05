@@ -1,6 +1,6 @@
 
 .App {
-    height: 100vh;;
+    width: 100vw;
 }
 
 
@@ -28,7 +28,6 @@
 
 main {
     width: 100vw;
-    max-height: 70vh;
 }
 
 
@@ -43,28 +42,19 @@ section div {
     height: 100%;
 }
 
-section:nth-child(even){
-    background: linear-gradient(to right, #444 15%, #131313 85%);
-}
-
-section:nth-child(odd){
-    background: linear-gradient(to left, #444 15%, #131313 85%);
-}
-
 footer {
     border: 4px double black;
     width: 100%;
     background: #226015;
     border-radius: 5px;
-    font-size: .7rem;
+    font-size: .9rem;
     color: white;
     font-family: Serif, Times New Roman;
     font-weight: bold;
     text-align: center;
     line-height: 1rem;
-    padding: .5rem;
     text-shadow: 1px 1px black;
-    min-height: 35vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +76,7 @@ footer span {
 }
 
 footer h3 {
-    font-size: .6rem;
+    font-size: .8rem;
     color: #08ff00;
     text-shadow: 1px 1px black;
 }
@@ -137,7 +127,7 @@ footer h3 {
 }
 
 .footer-icons--noClick div p {
-    font-size: .6rem;
+    font-size: .8rem;
 }
 
 @media (max-width: 700px)
@@ -159,11 +149,11 @@ footer h3 {
     }
 
     footer span {
-        font-size: .8rem;
+        font-size: 1.2rem;
     }
     
     footer h3 {
-        font-size: .5rem;
+        font-size: .7rem;
         color: #08ff00;
         text-shadow: 1px 1px black;
     }

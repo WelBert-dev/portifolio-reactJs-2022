@@ -1,13 +1,15 @@
 #main-projects--container {
-
+    width: 100%;
 }
 
 .projects-single {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    margin: 1rem;
     justify-content: center;
+    max-width: 98%;
+    margin: 0 auto;
+    padding: .5rem;
 }
 
 .projects-logo {

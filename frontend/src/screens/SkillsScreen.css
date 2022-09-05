@@ -20,14 +20,15 @@
 } */
 
 #main-skills--container {
-
+    min-height: 70vh;
+    width: 100%;
 }
 
 
 .wrapper-skills {
     display: flex;
     flex-wrap: wrap;
-    max-width: 90%;
+    max-width: 80%;
     justify-content: space-around;
     margin: 0 auto;
     gap: 2rem;
