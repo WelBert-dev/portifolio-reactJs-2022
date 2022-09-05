@@ -28,6 +28,7 @@
 
 main {
     width: 100vw;
+    min-height: 70vh;
 }
 
 
@@ -40,6 +41,7 @@ section {
 
 section div {
     height: 100%;
+    width: 100%;
 }
 
 footer {

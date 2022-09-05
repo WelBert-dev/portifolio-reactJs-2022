@@ -9,13 +9,16 @@
     justify-content: center;
 }
 
-#main-sobre--container div p{
-    max-width: 70%;
+#main-sobre--container > div > div {
+    max-width: 90%;
     margin: 0 auto;
+}
+
+#main-sobre--container div p{
     font-size: 1rem;
     font-family: cursive;
     border: 4px double white;
-    padding: 1rem;
+    padding: .5rem;
     color: var(--main-color);
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
     background-color: black;
@@ -24,18 +27,16 @@
 
 #main-sobre--container div ul {
     max-width: max-content;
-    padding: 0 1rem 1rem 1rem;
     font-size: 1rem;
     font-family: cursive;
     color: white;
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
     list-style-position: inside;
-    margin: 0 1rem;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 
-@media (max-width: 700px)
+@media (max-width: 800px)
 {
     .main-title {
         margin-top: 4rem;

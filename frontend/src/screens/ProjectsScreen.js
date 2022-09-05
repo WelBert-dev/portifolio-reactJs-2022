@@ -12,8 +12,9 @@ export default function ProjectsScreen() {
             <div>
                 <h1 className="main-title">&lsaquo;Projetos&rsaquo;</h1>
                 <hr />
-                <div className="wrapper-projects">
+                <div className="wrapper-projects">         
                     <article className="projects-single">
+                    <img className="projects-logo" src={amazonAmostra} alt="Amostra Amazon" ></img>
                         <div className="projects-right">
                             <div className="projects-title--container">
                                 <div>
@@ -57,10 +58,10 @@ export default function ProjectsScreen() {
                                 </p>
                             </div>
                         </div>
-                        <img className="projects-logo" src={amazonAmostra} alt="Amostra Amazon" ></img>
                     </article>
                     <hr />
                     <article className="projects-single">
+                        <img className="projects-logo" src={netflixAmostra} alt="Amostra Netflix" ></img>
                         <div className="projects-right">
                             <div className="projects-title--container">
                                 <div>
@@ -110,10 +111,10 @@ export default function ProjectsScreen() {
                                 </p>
                             </div>
                         </div>
-                        <img className="projects-logo" src={netflixAmostra} alt="Amostra Netflix" ></img>
                     </article>
                     <hr />
                     <article className="projects-single">
+                        <img className="projects-logo" src={auauMiauNoFrameworkAmostra} alt="Amostra AuauMiau NoFamework" ></img>
                         <div className="projects-right">
                             <div className="projects-title--container">
                                 <div>
@@ -162,7 +163,7 @@ export default function ProjectsScreen() {
                                 </p>
                             </div>
                         </div>
-                        <img className="projects-logo" src={auauMiauNoFrameworkAmostra} alt="Amostra AuauMiau NoFamework" ></img>
+                        
                     </article>
                     <hr />
                 </div>

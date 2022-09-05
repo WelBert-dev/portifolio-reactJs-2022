@@ -9,13 +9,13 @@
 .skill-tec {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     max-width: 30%;
 }
 
 .icon {
-    max-width: 6rem;
-    max-height: 6rem;
+    max-width: 6em;
+    max-height: 6em;
 
 } */
 
@@ -74,7 +74,7 @@ progress[value] {
     /* Get rid of the default appearance */
     appearance: none;
     
-    /* This unfortunately leaves a trail of border behind in Firefox and Opera. We can remove that by setting the border to none. */
+    /* This unfortunately leaves a trail of border behind in Firefox and Opera. We can emove that by setting the border to none. */
     border: none;
     
     /* Add dimensions */
@@ -291,7 +291,7 @@ p[data-value] {
   /* THE END */
 
 
-  @media (max-width: 700px)
+  @media (max-width: 800px)
 {
     .wrapper-skills {
         max-width: fit-content;
