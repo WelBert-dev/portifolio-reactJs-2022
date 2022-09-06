@@ -32,7 +32,7 @@ function App() {
               <a href="https://www.github.com/WelBert-dev" target="_blank"><AiFillGithub /></a>
               <a href="https://web.facebook.com/wellison.bertelli.7" target="_blank"><AiFillFacebook /></a>
               <a href="https://www.linkedin.com/in/wellison-bertelli-2191ba204" target="_blank"><AiFillLinkedin /></a>
-              <AiFillInstagram />
+              <a href="https://www.instagram.com/lunatic_bertelli/" target="_blank"><AiFillInstagram /></a>
             </div>
             <div className='footer-icons--noClick'>
               <div>

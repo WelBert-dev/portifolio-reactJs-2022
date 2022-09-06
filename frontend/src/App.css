@@ -108,12 +108,6 @@ footer h3 {
     cursor: pointer;
 }
 
-.footer-icons--click svg:nth-child(4):hover {
-    box-shadow: 3px 3px 3px black, -1px -1px 3px black;
-    cursor: pointer;
-    background-color: red;
-}
-
 .footer-icons--noClick {
     display: flex;
     justify-content: center;

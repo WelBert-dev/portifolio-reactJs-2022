@@ -371,6 +371,7 @@ padding: 1rem;
 
     .template__section__title span hr{
         display: block;
+        color: wheat;
     }
 
     .template__professional .template__section__right
