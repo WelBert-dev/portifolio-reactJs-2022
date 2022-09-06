@@ -2,6 +2,8 @@ import React from 'react';
 
 import './ProjectsScreen.css';
 
+import { BsFillFolderSymlinkFill } from 'react-icons/bs'
+
 import amazonAmostra from '../resources/amazona.jpg';
 import netflixAmostra from '../resources/NetFlixCloneWeb.gif';
 import auauMiauNoFrameworkAmostra from '../resources/auauMiauNoFramework.png';
@@ -19,7 +21,7 @@ export default function ProjectsScreen() {
                             <div className="projects-title--container">
                                 <div>
                                     <h3 className="projects-title">Clone Amazon ReactJs e Asp.NetCore</h3>
-                                    <a href="https://github.com/welBert-dev/ecommerceWebApi-microServices-dotNetCoreMVC" target="_blank"><i className="fas fa-share-square"></i></a>
+                                    <a href="https://github.com/welBert-dev/ecommerceWebApi-microServices-dotNetCoreMVC" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
                                 </div>
                                 <p>Código do projeto clicando no botão a cima</p>
                                 <span>WEB E2E</span>
@@ -66,7 +68,7 @@ export default function ProjectsScreen() {
                             <div className="projects-title--container">
                                 <div>
                                     <h3 className="projects-title">Clone Netflix Reactjs consumindo API TMDB</h3>
-                                    <a href="https://github.com/WelBert-dev/netflixCloneWeb-NoE2E-react" target="_blank"><i className="fas fa-share-square"></i></a>
+                                    <a href="https://github.com/WelBert-dev/netflixCloneWeb-NoE2E-react" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
                                 </div>
                                 <p>Código do projeto clicando no botão a cima</p>
                                 <span>WEB NoE2E</span>
@@ -119,7 +121,7 @@ export default function ProjectsScreen() {
                             <div className="projects-title--container">
                                 <div>
                                     <h3 className="projects-title">Interface Clínica AuauMiau sem frameworks (Frontend) Vanilla</h3>
-                                    <a href="https://github.com/WelBert-dev/auauMiauWeb-NoFramework" target="_blank"><i className="fas fa-share-square"></i></a>
+                                    <a href="https://github.com/WelBert-dev/auauMiauWeb-NoFramework" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
                                 </div>
                                 <p>Código do projeto clicando no botão a cima</p>
                                 <span>WEB NoE2E (HTML5 + CSS3 + Js PURO)</span>

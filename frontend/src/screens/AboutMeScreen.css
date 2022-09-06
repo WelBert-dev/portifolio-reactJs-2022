@@ -48,13 +48,11 @@
 
     #main-sobre--container div p{
         max-width: max-content;
-        font-size: .8rem;
         margin: 0 1rem;
     }
 
     #main-sobre--container div ul {
         max-width: max-content;
-        font-size: .8rem;
         margin: 1rem;
         padding: 0;
     }
@@ -65,17 +63,19 @@
 {
     #main-sobre--container .main-title {
         margin-top: 3rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #main-sobre--container div p{
         max-width: max-content;
-        font-size: .7rem;
         margin: 1rem;
     }
 
     #main-sobre--container div ul {
-        font-size: .7rem;
         margin: 0 1rem 1rem 1rem;
+        font-size: .9rem;
     }
 
     #main-sobre--container div {

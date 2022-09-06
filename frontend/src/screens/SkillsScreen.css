@@ -295,7 +295,7 @@ p[data-value] {
 {
     .wrapper-skills {
         max-width: fit-content;
-        margin: 1rem;
+        margin: .5rem;
 
     }
     .icon {

@@ -52,6 +52,7 @@
     font-weight: bold;
     color: #ffd700;
     text-shadow: 1px 1px black;
+    font-size: .7rem;
 }
 
 .projects-title {
@@ -71,6 +72,19 @@
     color: black;
     padding: .2rem;
     font-size: 1.5rem;
+    height: fit-content;
+    width: fit-content;
+    transition: all ease-in .3s;
+}
+
+.projects-title--container div a:hover {
+    color: wheat;
+    transform: scale(1.1);
+}
+
+.projects-title--container div a i svg path, .projects-title--container div a i svg, .projects-title--container div a i{
+    height: fit-content;
+    width: fit-content;
 }
 
 .projects-title--container p {
@@ -80,12 +94,6 @@
     color: white;
     text-decoration: underline;
     padding: 0 0 .2rem 0;
-}
-
-.projects-title--container span {
-    font-size: .9rem;
-    font-weight: bold;
-    color: rgb(255, 166, 0);
 }
 
 .projects-subtitle {
@@ -134,9 +142,6 @@
     .projects-title {
         font-size: .8rem;     
     }
-    .projects-title--container div a {
-        font-size: .9rem;
-    }
     .projects-title--container p {
         font-size: .7rem;
     }
@@ -176,6 +181,9 @@
 {
     #main-projects--container .main-title {
         margin-top: 3rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     .projects-title {
         font-size: .7rem;     
