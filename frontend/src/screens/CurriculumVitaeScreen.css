@@ -13,23 +13,11 @@ article, aside, footer, header, nav, section {
     background-color: black;
 }
 
-tr .template__professional__column {
+tr .template__professional__column, .template__newyork__main.template__professional__main span, .template__nameOccupation > .template__occupation {
     color: white;
 }
 
-.template__newyork__main.template__professional__main span {
-    color: white;
-}
-
-.template__nameOccupation > .template__occupation {
-    color: white;
-}
-
-.template__newyork .template__section__college {
-    color: #9f9f9f;
-}
-
-.template__section__right .template__section__company {
+.template__newyork .template__section__college, .template__section__right .template__section__company, .template__nameOccupation > .template__occupation > p{
     color: #9f9f9f;
 }
 
@@ -39,6 +27,33 @@ tr .template__professional__column {
 
 .template__section__title span hr{
     display: none;
+}
+
+.tableCurriculoVitae
+{
+    max-width: 1024px;
+}
+
+.template__header.template__header--twoColumns, #education .template__section__right .template__section__description
+{
+    text-align: justify;
+}
+
+.template__section.template__section__experience.template__section--border.template__section--twoColumns, .template__section__simple--border > .template__section__container
+{
+    padding-right: 2rem;
+}
+
+.template__header__info > p:nth-child(1){
+    color: black;
+}
+
+.template__professional__column.template__newyork__column > section > .template__section__title {
+    text-align: center;
+}
+
+#skills > .template__section__title, #languages > .template__section__title {
+    padding-top: .9rem;
 }
 
 .gOzbkZ {
@@ -145,6 +160,7 @@ justify-content: space-between;
 }
 .template__professional .template__header, .template__professional .template__section__experience:last-child, .template__professional .template__section__education:last-child, .template__professional .template__section__custom:not(:last-child) {
 border-bottom: 1px solid white;
+padding-right: 2rem;
 }
 
 .template__professional .template__header {
@@ -169,7 +185,6 @@ line-height: 17px;
 .template__professional .template__header__column {
 min-width: calc(100% - 75px - 16px);
 max-width: 100%;
-margin-right: 16px;
 }
 .template__occupation {
 font-size: 11.5px;
@@ -282,10 +297,6 @@ margin-top: 8px;
 margin-bottom: 8px;
 }
 
-.template__professional__column section:not(:last-child) {
-margin-bottom: 25px;
-}
-
 .template * {
 box-sizing: border-box;
 
@@ -358,13 +369,28 @@ box-shadow: rgb(217, 221, 224) 0px 0px 34px 0px;
 }
 
 .padding-1rem {
-padding: 1rem;
+padding: .5rem 1rem 0 1rem;
 }
 
 
 
 @media (max-width: 800px)
 {
+    #tdEspaco{
+        display: none;
+    }
+    .tableCurriculoVitae {
+        padding: .5rem 1rem 0 1rem;
+    }
+
+    .template__professional .template__header, .template__professional .template__section__experience:last-child, .template__professional .template__section__education:last-child, .template__professional .template__section__custom:not(:last-child) {
+        padding-right: 1rem;
+    }
+
+    .template__header.template__header--twoColumns, #education .template__section__right .template__section__descriptio {
+        padding-left: 1rem;
+    }
+
     .sc-15b5x2p-1.gOzbkZ {
         padding-top: 4rem;
     }
@@ -374,14 +400,12 @@ padding: 1rem;
         color: wheat;
     }
 
-    .template__professional .template__section__right
-    {
-        width: 98%;
-        padding: 0 16px;
+    .template__section__title > span hr {
+        color: wheat;
     }
 
-    .template__newyork__main.template__professional__main {
-        width: 97%;
+    .template__professional .template__section__right {
+        width: 100%;
     }
 
     .template__professional__column.template__newyork__column {
@@ -442,13 +466,12 @@ padding: 1rem;
         display: none;
     }
 
-    .template__section__container > .template__section__simple {
-        text-align: justify;
+    .template__section__simple--border > .template__section__container {
+        padding-left: 1rem;
     }
 
     .template__newyork__main .template__section__simple {
         padding-left: 0;
-        max-width: 97%;
     }
 
     .template__section__description div {

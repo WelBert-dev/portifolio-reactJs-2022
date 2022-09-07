@@ -9,7 +9,7 @@ export default function CurriculumVitaeScreen() {
          <div className="visible-preview">
              <div id="template-preview-full" className="template html readonly" data-qa="template-preview">
                  <div className="resume-container container A4">
-                     <table className="template__newyork template__professional dataqa-document-properties color--blue font-size--medium font-family--professional font-language--pt-BR line-spacing--100 numPages-2 A4 sc-jojyft-0 jbCKSz">
+                     <table className="tableCurriculoVitae template__newyork template__professional dataqa-document-properties color--blue font-size--medium font-family--professional font-language--pt-BR line-spacing--100 numPages-2 A4 sc-jojyft-0 jbCKSz">
                          <tbody>
                              <tr>
                              <td className="template__professional__column template__newyork__column" width="220">
@@ -90,7 +90,7 @@ export default function CurriculumVitaeScreen() {
                                      </div>
                                  </section>
                              </td>
-                             <td width="16"></td>
+                             <td id="tdEspaco" width="16"></td>
                              <td className="template__newyork__main template__professional__main">
                                  <div className="template__header template__header--twoColumns">
                                      <div className="template__header__column">
