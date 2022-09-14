@@ -19,6 +19,10 @@
     height: 100%;
     flex-grow: 1fr;
     max-width: 49%;
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
 }
 
 .projects-right {
@@ -27,7 +31,11 @@
     border-radius: 10px;
     background: linear-gradient(to right, #fff 2%, rgb(209 35 35 / 72%) 75%);
     flex-grow: 1fr;
+<<<<<<< HEAD
     max-width: 46%;
+=======
+    max-width: 50%;
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
 
 }
 
@@ -77,6 +85,7 @@
     transition: all ease-in .3s;
 }
 
+<<<<<<< HEAD
 .projects-title--container div a:hover {
     color: wheat;
     transform: scale(1.1);
@@ -85,6 +94,16 @@
 .projects-title--container div a i svg path, .projects-title--container div a i svg, .projects-title--container div a i{
     height: fit-content;
     width: fit-content;
+=======
+.projects-title--container div a i svg path, .projects-title--container div a i svg, .projects-title--container div a i{
+    height: fit-content;
+    width: fit-content;
+}
+
+.projects-title--container div a:hover {
+    color: wheat;
+    transform: scale(1.1);
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
 }
 
 .projects-title--container p {
@@ -166,12 +185,20 @@
         flex-direction: column;
     }
     .projects-logo {
+<<<<<<< HEAD
         max-width: 95%;
+=======
+        max-width: 100%;
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
         margin: 0 auto;
     }
     
     .projects-right {
+<<<<<<< HEAD
         max-width: 95%;
+=======
+        max-width: 100%;
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
         margin: 0 auto;
     }
     

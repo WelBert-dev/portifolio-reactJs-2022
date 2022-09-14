@@ -28,7 +28,11 @@
 .wrapper-skills {
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     max-width: 80%;
+=======
+    max-width: 1024px;
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
     justify-content: space-around;
     margin: 0 auto;
     gap: 2rem;

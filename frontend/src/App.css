@@ -88,6 +88,8 @@ footer h3 {
     display: flex;
     justify-content: space-evenly;
     gap: .5rem;
+    min-width: fit-content;
+    flex-wrap: wrap;
 }
 
 .footer-icons--click {
@@ -127,14 +129,14 @@ footer h3 {
     font-size: .8rem;
 }
 
-@media (max-width: 700px)
+@media (max-width: 800px)
 {
     .main-title {
         font-size: 1.3rem;
         margin-top: 3rem;
     }
     section {
-        padding: 1rem;
+        padding: 1rem .5rem;
     }
 
     .footer-icons--click svg {
@@ -162,6 +164,10 @@ footer h3 {
     .footer-icons {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+    }
+
+    .footer-icons--noClick {
         align-items: center;
     }
 }

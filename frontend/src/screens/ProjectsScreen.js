@@ -2,7 +2,11 @@ import React from 'react';
 
 import './ProjectsScreen.css';
 
+<<<<<<< HEAD
 import { BsFillFolderSymlinkFill } from 'react-icons/bs'
+=======
+import { BsFillFolderSymlinkFill } from 'react-icons/bs';
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
 
 import amazonAmostra from '../resources/amazona.jpg';
 import netflixAmostra from '../resources/NetFlixCloneWeb.gif';

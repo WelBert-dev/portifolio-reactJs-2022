@@ -69,10 +69,6 @@ min-height: 842px;
 box-shadow: rgb(217, 221, 224) 0px 0px 34px 0px;
 }
 
-.gxFmmC .template.html {
-/*width: 812px;*/
-}
-
 .khUhxh.paginatorItem {
 display: flex;
 box-sizing: border-box;
@@ -413,7 +409,11 @@ padding: .5rem 1rem 0 1rem;
     }
 
     .template__professional .template__section__right {
+<<<<<<< HEAD
         border-left: 1px solid white;
+=======
+        border-left: 1px solid wheat;
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
     }
 
     .template__nameOccupation {
@@ -435,8 +435,13 @@ padding: .5rem 1rem 0 1rem;
     }
 
     .template__section__position::before {
+<<<<<<< HEAD
         background-color: white;
         color: white;
+=======
+        background-color: wheat;
+        color: wheat;
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
         font-size: 8px;
         content: '.';
         font-family: 'Icons Templates';
@@ -449,8 +454,13 @@ padding: .5rem 1rem 0 1rem;
     } 
 
     .template__section__degree::before {
+<<<<<<< HEAD
         background-color: white;
         color: white;
+=======
+        background-color: wheat;
+        color: wheat;
+>>>>>>> 4bbdb43 (Deixa igual ao firstportifolio heroku)
         font-size: 8px;
         content: '.';
         font-family: 'Icons Templates';
